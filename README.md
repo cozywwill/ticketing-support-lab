@@ -185,8 +185,7 @@ He has attempted to leave and rejoin the meeting and restart Microsoft Teams, bu
 
 #### Ticket Evidence
 
-![Microsoft Teams Ticket](<img width="1842" height="861" alt="image" src="https://github.com/user-attachments/assets/32c06f01-1f82-4ece-b243-ec1844dbdcd1" />
-)
+<img width="1842" height="861" alt="image" src="https://github.com/user-attachments/assets/32c06f01-1f82-4ece-b243-ec1844dbdcd1" />
 
 ---
 
@@ -215,8 +214,7 @@ The account lockout prevents her from accessing company applications and shared 
 
 #### Ticket Evidence
 
-![Account Lockout Ticket](<img width="1843" height="856" alt="image" src="https://github.com/user-attachments/assets/ad3b3569-01c4-4bd0-993a-32bff72b5ed6" />
-)
+<img width="1843" height="856" alt="image" src="https://github.com/user-attachments/assets/ad3b3569-01c4-4bd0-993a-32bff72b5ed6" />
 
 ---
 
@@ -248,8 +246,7 @@ An alternative printer is available, allowing him to continue working with minim
 
 #### Ticket Evidence
 
-![Printer Support Ticket](<img width="1837" height="856" alt="image" src="https://github.com/user-attachments/assets/89efc0d7-dc51-46e9-9257-9cc1ad512ea3" />
-)
+<img width="1837" height="856" alt="image" src="https://github.com/user-attachments/assets/89efc0d7-dc51-46e9-9257-9cc1ad512ea3" />
 
 ---
 
