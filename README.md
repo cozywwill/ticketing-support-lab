@@ -57,7 +57,7 @@ The lab simulates a small organisation's IT Help Desk, where employees submit su
 
 **Spiceworks Registration**
 
-![Spiceworks Registration](images/signup-page.png)
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/fb1a9c5a-c17e-4621-9088-9598b184e04e" />
 
 **Spiceworks Dashboard**
 
