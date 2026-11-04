@@ -1,31 +1,33 @@
 
-# Ticketing System Lab | Spiceworks
+# IT Help Desk Ticketing System Lab | Spiceworks
 
 ## 📌 Project Overview
 
-This project is a personal IT support home lab designed to simulate Tier 1 Help Desk operations using **Spiceworks Cloud Help Desk**.
+This project demonstrates practical experience using **Spiceworks Cloud Help Desk** to manage IT support tickets in a simulated workplace environment.
 
-The lab involves setting up a fictional organisation, **Northstar Technologies**, and using realistic workplace scenarios to practise ticket creation, incident categorisation, prioritisation, troubleshooting documentation, and ticket lifecycle management.
+A fictional organisation, **Northstar Technologies**, was created to practise common Tier 1 IT Support processes, including:
 
-Three workplace scenarios are used to demonstrate ticket management:
+- Ticket creation and categorisation.
+- Incident prioritisation.
+- Ticket status management.
+- Internal documentation and communication.
+- Simulated ticket resolution and closure.
+- Ticket escalation and reassignment.
 
-1. Microsoft Outlook synchronisation issue.
-2. Office Wi-Fi connectivity issue.
-3. Monitor hardware failure.
+Three fictional support incidents were created to demonstrate different ticket priorities and categories.
 
-> **Lab Scope:** This project focuses exclusively on ticketing system operations. No actual hardware, software, or network troubleshooting is performed. All incidents, ticket updates, and resolutions are simulated for educational purposes.
+> **Lab Scope:** This project focuses on IT ticket management. All incidents and resolutions are simulated; no actual technical troubleshooting or repairs were performed.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
 - Configure a simulated IT Help Desk environment.
-- Create and manage support tickets using Spiceworks.
-- Categorise and prioritise incidents based on impact and urgency.
-- Develop structured troubleshooting procedures.
-- Document technical findings and ticket updates.
-- Practise ticket resolution, escalation, and closure.
-- Build professional technical documentation for a portfolio.
+- Create and manage support tickets.
+- Categorise incidents and assign appropriate priorities.
+- Document ticket activity and internal notes.
+- Demonstrate ticket resolution and closure.
+- Practise escalation from Tier 1 to Tier 2 Support.
 
 ---
 
@@ -33,433 +35,303 @@ Three workplace scenarios are used to demonstrate ticket management:
 
 | Tool | Purpose |
 |---|---|
-| Spiceworks Cloud Help Desk | IT ticket management |
-| Web Browser | Accessing the cloud platform |
-| Markdown | Technical documentation |
-| GitHub | Project documentation and version control |
+| Spiceworks Cloud Help Desk | Ticket creation and management |
+| Web Browser | Accessing the Help Desk |
+| Markdown | Project documentation |
+| GitHub | Portfolio hosting |
 
 ---
 
 ## 🏢 Lab Environment
 
-### Simulated Organisation
+**Organisation:** Northstar Technologies  
+**Environment:** Simulated Small Business  
+**Role:** Tier 1 IT Support Technician  
+**Platform:** Spiceworks Cloud Help Desk
 
-**Northstar Technologies** is a fictional small business used to simulate a workplace IT support environment.
+### Simulated Employees
 
-The organisation will contain multiple departments with employees submitting technical support requests to a centralised Help Desk.
-
-### Organisation Details
-
-| Field | Details |
-|---|---|
-| Organisation | Northstar Technologies |
-| Environment | Simulated Small Business |
-| IT Role | Tier 1 Help Desk Technician |
-| Ticketing Platform | Spiceworks Cloud Help Desk |
-
-### Planned Departments
-
-| Department | Employee | Support Scenario |
+| Employee | Department | Reported Issue |
 |---|---|---|
-| IT | Help Desk Technician | Ticket management |
-| Sales | Michael T. | Wi-Fi connectivity |
-| Finance | Daniel K. | Locked out employee account |
-| Administration Department | Emily T. | Monitor hardware failure |
+| Michael Taylor | Sales | Microsoft Teams microphone issue |
+| Jessica Lee | Finance | Employee account locked |
+| Daniel Kim | Administration | Office printer not printing |
 
-All employee identities are fictional.
+All employees and incidents are fictional.
 
 ---
 
-## 🚀 Lab Setup & Configuration
+## 🚀 Lab Setup
 
-The initial phase involves configuring Spiceworks Cloud Help Desk for the simulated organisation.
+A Spiceworks Cloud Help Desk account was configured for Northstar Technologies to simulate a centralised IT support environment.
 
-### Setup Activities
+### Setup Process
 
-1. Register a Spiceworks Cloud Help Desk account.
-2. Configure the fictional organisation.
-3. Explore the Help Desk dashboard.
-4. Review ticket creation and management features.
-5. Configure available ticket categories and priorities.
-6. Prepare simulated employee support requests.
+1. Registered a Spiceworks account.
+2. Configured Northstar Technologies as the organisation.
+3. Accessed and explored the Help Desk dashboard.
+4. Created fictional employee contacts.
+5. Created support tickets with categories and priorities.
+6. Practised ticket updates, closure, and reassignment.
 
 ### Setup Evidence
 
 **Spiceworks Registration**
 
-<img width="511" height="618" alt="Spiceworks registration page" src="https://github.com/user-attachments/assets/af118ba8-6767-4525-bd53-8e4d54939531" />
+<img width="511" height="618" alt="Spiceworks registration" src="https://github.com/user-attachments/assets/af118ba8-6767-4525-bd53-8e4d54939531" />
 
 **Spiceworks Dashboard**
 
-<img width="1904" height="917" alt="image" src="https://github.com/user-attachments/assets/805cacbf-51f4-45c8-b828-2a63626495f8" />
+<img width="1904" height="917" alt="Spiceworks dashboard" src="https://github.com/user-attachments/assets/805cacbf-51f4-45c8-b828-2a63626495f8" />
 
 **Ticket Management Dashboard**
 
-<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/af40ca24-6653-4628-8959-60c55975c44b" />
+<img width="1917" height="912" alt="Ticket management dashboard" src="https://github.com/user-attachments/assets/af40ca24-6653-4628-8959-60c55975c44b" />
 
 ---
 
-## 📋 Ticketing System Fundamentals
+## 📋 Ticketing Fundamentals
 
 An IT ticketing system allows support teams to record, organise, track, and manage technical incidents and service requests.
 
-Each support request is recorded as a ticket containing information about the reported issue.
+Each ticket contains information such as the requester, issue description, category, priority, assigned technician, and current status.
 
-### Common Ticket Fields
+### Priority Levels
 
-| Field | Description |
+Spiceworks provides three priority levels:
+
+| Priority | Description |
 |---|---|
-| Ticket ID | Unique identifier for the support request |
-| Requester | Employee reporting the issue |
-| Subject | Brief summary of the problem |
-| Description | Details of the reported issue |
-| Category | Classification of the incident |
-| Priority | Relative urgency and business impact |
-| Assignee | Technician responsible for the ticket |
-| Status | Current stage of the ticket |
-| Internal Notes | Documentation of ticket activity |
+| High | Urgent issue affecting important business activities |
+| Medium | Issue affecting normal work operations |
+| Low | Minor disruption with limited business impact |
 
-### Ticket Priority Levels
-
-| Priority | Description | Example |
-|---|---|---|
-| P1 – Critical | Major business-wide disruption | Company-wide email outage |
-| P2 – High | Significant or urgent business impact | Critical application unavailable |
-| P3 – Medium | Limited operational impact | Single-user Outlook issue |
-| P4 – Low | Minor issue or routine request | Peripheral replacement |
-
-> These priority levels are illustrative. Actual priority classifications depend on organisational policies and the impact and urgency of each incident.
-
-### Ticket Lifecycle
-
-A typical ticket management workflow follows:
-
-**New → Triage → In Progress → Resolved → Closed**
-
-During this process, technicians may:
-
-- Update ticket information.
-- Change ticket priority.
-- Assign or reassign tickets.
-- Add internal notes.
-- Request further information.
-- Escalate tickets.
-- Record a simulated resolution.
-- Close completed tickets.
-
-Actual available statuses depend on the Spiceworks configuration.
+Priority is determined by the urgency and impact of the reported issue.
 
 ---
 
-
 ## 🎫 Practical Ticketing Scenarios
 
-Three fictional workplace incidents were created to demonstrate ticket creation, categorisation, prioritisation, and management within Spiceworks Cloud Help Desk.
-
-The scenarios take place within **Northstar Technologies**, a simulated small business environment.
-
-The purpose of these scenarios is to practise the **ticketing workflow**, rather than diagnose or resolve the reported technical issues.
+Three fictional workplace incidents were created in Spiceworks to demonstrate ticket creation, categorisation, and prioritisation.
 
 ### Scenario 01 — Microsoft Teams Microphone Issue
 
-**Requester:** Michael Taylor  
-**Department:** Sales  
-**Category:** Software  
-**Priority:** High  
+| Field | Details |
+|---|---|
+| Requester | Michael Taylor |
+| Department | Sales |
+| Category | Software |
+| Priority | High |
 
-#### Incident Description
+**Incident Description**
 
-Michael Taylor from the Sales Department reports that his microphone is not working during Microsoft Teams meetings. Although he can hear other participants, they cannot hear him.
+Michael Taylor reported that his microphone was not working during Microsoft Teams meetings. Other participants could not hear him, affecting an upcoming client presentation.
 
-He has attempted to leave and rejoin the meeting and restart Microsoft Teams, but the issue persists. The problem is affecting an upcoming client presentation and requires urgent IT assistance.
+**Ticketing Activities**
 
-#### Ticketing Activities
+1. Created a support ticket for the reported issue.
+2. Recorded the requester's details and incident description.
+3. Categorised the ticket as Software.
+4. Assigned High priority due to the time-sensitive impact.
+5. Saved and reviewed the ticket.
 
-1. Create a new support ticket in Spiceworks.
-2. Select Michael Taylor as the contact.
-3. Enter the ticket summary and incident description.
-4. Categorise the ticket as a software issue.
-5. Assign **High** priority due to the time-sensitive business impact.
-6. Assign the ticket to the IT Help Desk technician.
-7. Save the ticket and review its recorded information.
+**Ticket Evidence**
 
-#### Ticket Evidence
-
-<img width="1842" height="861" alt="image" src="https://github.com/user-attachments/assets/32c06f01-1f82-4ece-b243-ec1844dbdcd1" />
+<img width="1842" height="861" alt="Microsoft Teams support ticket" src="https://github.com/user-attachments/assets/32c06f01-1f82-4ece-b243-ec1844dbdcd1" />
 
 ---
 
 ### Scenario 02 — Employee Account Locked
 
-**Requester:** Jessica Lee  
-**Department:** Finance  
-**Category:** Account / Access  
-**Priority:** Medium  
+| Field | Details |
+|---|---|
+| Requester | Jessica Lee |
+| Department | Finance |
+| Category | Account / Access |
+| Priority | Medium |
 
-#### Incident Description
+**Incident Description**
 
-Jessica Lee from the Finance Department reports that her work account has been locked following multiple unsuccessful login attempts.
+Jessica Lee reported that her work account was locked after multiple unsuccessful login attempts, preventing access to company applications and shared files.
 
-The account lockout prevents her from accessing company applications and shared files required for her daily responsibilities. She has attempted to sign in again but continues to receive the account locked message.
+**Ticketing Activities**
 
-#### Ticketing Activities
+1. Created a support ticket for the account lockout.
+2. Recorded the requester's details and reported issue.
+3. Categorised the ticket as Account / Access.
+4. Assigned Medium priority.
+5. Saved and reviewed the ticket.
 
-1. Create a new support ticket in Spiceworks.
-2. Select Jessica Lee as the contact.
-3. Record the reported account access issue.
-4. Categorise the ticket as an account or access-related issue.
-5. Assign **Medium** priority based on the simulated business impact.
-6. Assign the ticket to the IT Help Desk technician.
-7. Save the ticket and verify the recorded details.
+**Ticket Evidence**
 
-#### Ticket Evidence
-
-<img width="1843" height="856" alt="image" src="https://github.com/user-attachments/assets/ad3b3569-01c4-4bd0-993a-32bff72b5ed6" />
+<img width="1843" height="856" alt="Account lockout support ticket" src="https://github.com/user-attachments/assets/ad3b3569-01c4-4bd0-993a-32bff72b5ed6" />
 
 ---
 
 ### Scenario 03 — Office Printer Not Printing
 
-**Requester:** Daniel Kim  
-**Department:** Administration  
-**Category:** Hardware  
-**Priority:** Low  
+| Field | Details |
+|---|---|
+| Requester | Daniel Kim |
+| Department | Administration |
+| Category | Hardware |
+| Priority | Low |
 
-#### Incident Description
+**Incident Description**
 
-Daniel Kim from the Administration Department reports that the shared office printer is not printing documents submitted from his workstation.
+Daniel Kim reported that documents were remaining in the shared office printer's queue without printing.
 
-Print jobs remain in the queue without completing. He has attempted to cancel and resubmit the print jobs, but the issue persists.
+An alternative printer was available, allowing work to continue with minimal disruption.
 
-An alternative printer is available, allowing him to continue working with minimal disruption.
+**Ticketing Activities**
 
-#### Ticketing Activities
+1. Created a support ticket for the printer issue.
+2. Recorded the requester's details and incident description.
+3. Categorised the ticket as Hardware.
+4. Assigned Low priority due to the available workaround.
+5. Saved and reviewed the ticket.
 
-1. Create a new support ticket in Spiceworks.
-2. Select Daniel Kim as the contact.
-3. Record the printer issue in the ticket description.
-4. Categorise the ticket as a hardware issue.
-5. Assign **Low** priority due to the availability of an alternative printer.
-6. Assign the ticket to the IT Help Desk technician.
-7. Save the ticket and review its details.
-8. Use the ticket to demonstrate status updates, internal notes, and simulated closure.
+**Ticket Evidence**
 
-#### Ticket Evidence
-
-<img width="1837" height="856" alt="image" src="https://github.com/user-attachments/assets/89efc0d7-dc51-46e9-9257-9cc1ad512ea3" />
-
----
-
-### Scenario Summary
-
-| Scenario | Requester | Category | Priority |
-|---|---|---|---|
-| 01 — Microsoft Teams Microphone | Michael Taylor | Software | High |
-| 02 — Employee Account Locked | Jessica Lee | Account / Access | Medium |
-| 03 — Office Printer Issue | Daniel Kim | Hardware | Low |
+<img width="1837" height="856" alt="Printer support ticket" src="https://github.com/user-attachments/assets/89efc0d7-dc51-46e9-9257-9cc1ad512ea3" />
 
 ---
 
 ## 🔄 Ticket Status and Closure Demonstration
 
-Scenario 01 is used to demonstrate how a support ticket progresses through different stages within the ticketing system.
+Scenario 01 — **Microsoft Teams Microphone Issue** was used to demonstrate ticket status updates, documentation, and closure.
 
-This exercise does not involve troubleshooting.
+### Step 1 — Ticket Review
 
-### Step 1 — Ticket Creation
-
-Create a support ticket documenting the employee's reported monitor issue.
+Reviewed the reported microphone issue and its associated ticket information.
 
 ### Step 2 — Status Update
 
-Update the ticket to indicate that the incident is being handled.
+Updated the ticket status to indicate that the incident was being handled.
 
-This demonstrates how technicians track ticket progress.
+### Step 3 — Internal Documentation
 
-### Step 3 — Internal Notes
+Recorded a simulated resolution describing the selection of the correct microphone input device in Microsoft Teams.
 
-Add a simulated technician note to document the ticket's progress.
+No actual troubleshooting was performed.
 
-**Example Internal Note:**
+### Step 4 — Ticket Closure
 
-> Simulated support scenario: Monitor reported as not powering on. Hardware assessment and replacement recorded as hypothetical actions for ticket workflow demonstration.
+Updated the ticket to its final status to demonstrate the closure process.
 
-### Step 4 — Simulated Resolution
-
-Record a fictional resolution indicating that the monitor was replaced.
-
-This demonstrates how resolution information is entered into the ticketing system.
-
-### Step 5 — Ticket Closure
-
-Update the ticket to its final status to demonstrate the closure process.
+The recorded resolution and closure were simulated for the purpose of practising the ticket lifecycle.
 
 ### Supporting Evidence
 
 **Ticket Status Update**
 
-<img width="1267" height="117" alt="image" src="https://github.com/user-attachments/assets/efb3af37-18ff-47b9-a7e7-e67989a626fe" />
+<img width="1267" height="117" alt="Ticket status update" src="https://github.com/user-attachments/assets/efb3af37-18ff-47b9-a7e7-e67989a626fe" />
 
-**Internal Technician Notes**
+**Resolution Documentation**
 
-<img width="1262" height="161" alt="image" src="https://github.com/user-attachments/assets/0651c854-9ee7-4ff8-bd11-691194742511" />
+<img width="1262" height="161" alt="Simulated resolution note" src="https://github.com/user-attachments/assets/0651c854-9ee7-4ff8-bd11-691194742511" />
 
 **Ticket Closure**
 
-<img width="541" height="834" alt="image" src="https://github.com/user-attachments/assets/5262bace-1c3a-4c03-987a-833d593b4869" />
+<img width="541" height="834" alt="Closed ticket" src="https://github.com/user-attachments/assets/5262bace-1c3a-4c03-987a-833d593b4869" />
 
 ---
 
 ## ⬆️ Ticket Escalation Demonstration
 
-This exercise demonstrates how an IT support ticket can be escalated from **Tier 1 IT Support to Tier 2 IT Support** within Spiceworks Cloud Help Desk.
+Scenario 03 — **Office Printer Not Printing** was used to demonstrate functional escalation from Tier 1 to Tier 2 IT Support.
 
-Scenario 03 — **Office Printer Not Printing**, reported by Daniel Kim from the Administration Department, is used to demonstrate the escalation process.
+The exercise focused on documenting the incident and transferring ticket ownership without performing technical troubleshooting.
 
-The purpose of this exercise is to practise ticket reassignment, internal documentation, and communication between support levels rather than performing actual technical troubleshooting.
+### Escalation Details
 
-### Step 1 — Identify the Need for Escalation
+| Field | Details |
+|---|---|
+| Ticket | #6 — Office Printer Not Printing Documents |
+| Requester | Daniel Kim |
+| Original Assignee | Wilson Lie — Tier 1 Support |
+| New Assignee | Clint Westwood — Simulated Tier 2 Support |
+| Escalation Type | Functional |
+| Priority | Low |
+| Status | Open |
 
-In a real IT support environment, incidents may require escalation when:
+### Step 1 — Review the Ticket
 
-- The issue exceeds the technical expertise of Tier 1 Support.
-- Additional system permissions or administrative access are required.
-- The issue cannot be resolved through standard troubleshooting procedures.
-- Further investigation by a specialised technician is necessary.
+Reviewed the reported printer issue, including the requester's unsuccessful attempts to cancel and resubmit print jobs.
 
-For this scenario, the printer issue is assumed to require further investigation by Tier 2 IT Support.
+The incident remained Low priority because an alternative printer was available.
 
-### Step 2 — Document the Escalation
+### Step 2 — Document the Handover
 
-An internal note is added to explain the reason for escalation and provide relevant incident information.
+Added an escalation message outlining:
 
-**Example Internal Escalation Note:**
+- The reported issue and symptoms.
+- Actions previously attempted by the requester.
+- Hypothetical Tier 1 troubleshooting steps.
+- The reason for escalation to Tier 2 Support.
 
-> Simulated escalation: The reported printer issue requires further technical investigation. Print jobs remain in the queue without completing. The ticket is being referred to Tier 2 IT Support for additional assessment. Priority remains Low because an alternative printer is available. No actual troubleshooting has been performed.
+This provided the receiving technician with relevant information for the simulated handover.
 
-This demonstrates how technicians document escalation decisions to ensure continuity between support teams.
+**Escalation Handover Evidence**
+
+<img width="1295" height="607" alt="Tier 1 escalation handover" src="https://github.com/user-attachments/assets/115ce838-6839-48f1-8e07-609def6de483" />
 
 ### Step 3 — Reassign the Ticket
 
-The ticket is reassigned from the Tier 1 IT Support technician to a Tier 2 technician, if another technician account is available.
+Removed Wilson Lie as the original assignee and reassigned the ticket to Clint Westwood, representing Tier 2 IT Support.
 
-**Escalation Details:**
+### Step 4 — Verify Reassignment
 
-| Field | Information |
-|---|---|
-| Requester | Daniel Kim |
-| Incident | Office Printer Not Printing |
-| Escalation Type | Functional Escalation |
-| Escalated From | Tier 1 IT Support |
-| Escalated To | Tier 2 IT Support |
-| Reason | Further technical investigation required |
-| Priority | Low |
-| Status | In Progress |
+Confirmed that Spiceworks recorded the assignment changes in the ticket history.
 
-The reassignment demonstrates how ticket ownership can be transferred between technicians while retaining the incident history.
+The ticket remained Open with Low priority for further simulated investigation.
 
-> If another technician account is unavailable, the escalation can be documented through an internal note without performing an actual reassignment.
+**Ticket Assignment History**
 
-### Step 4 — Verify Ticket Reassignment
+<img width="1292" height="152" alt="Ticket reassignment history" src="https://github.com/user-attachments/assets/a4d94952-c486-4d54-83bc-a6d7cb06c0e2" />
 
-After the simulated escalation, review the ticket to verify that:
+**Final Tier 2 Assignment**
 
-1. The assigned technician has been updated, if supported.
-2. The ticket's category and priority remain unchanged.
-3. The internal escalation note is recorded.
-4. The ticket history remains accessible.
-5. The incident remains open for further investigation.
+<img width="536" height="828" alt="Tier 2 technician assignment" src="https://github.com/user-attachments/assets/69314703-b3b6-4730-9822-07514115a358" />
 
-This demonstrates how IT support teams maintain accurate records when transferring tickets between support levels.
+**Outcome:** Successfully demonstrated ticket reassignment from Tier 1 to Tier 2 Support while preserving the incident details and assignment history.
 
-### Supporting Evidence
-
-**Escalation Internal Note**
-
-<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/115ce838-6839-48f1-8e07-609def6de483" />
-
-
-**Ticket Reassignment**
-
-<img width="1292" height="152" alt="image" src="https://github.com/user-attachments/assets/a4d94952-c486-4d54-83bc-a6d7cb06c0e2" />
-
-<img width="536" height="828" alt="image" src="https://github.com/user-attachments/assets/69314703-b3b6-4730-9822-07514115a358" />
+> **Note:** All troubleshooting steps mentioned in the escalation handover were hypothetical. No actual printer troubleshooting or repairs were performed.
 
 ---
 
-
 ## 🧠 Skills Demonstrated
 
-### IT Ticket Management
-
-- Creating and managing support tickets.
-- Recording incident details.
-- Categorising support requests.
-- Assigning ticket priorities.
-
-### Ticket Lifecycle Management
-
-- Understanding ticket statuses.
-- Updating ticket progress.
-- Recording simulated resolutions.
-- Closing tickets.
-
-### Technical Documentation
-
-- Writing clear incident descriptions.
-- Recording ticket activity.
-- Maintaining internal notes.
-- Organising support documentation.
-
-### IT Service Management Fundamentals
-
-- Understanding incident management workflows.
-- Recognising the importance of prioritisation.
-- Understanding ticket ownership and accountability.
-- Learning how ticketing platforms support IT teams.
+- **Ticket Management:** Creating, categorising, prioritising, and tracking support tickets.
+- **Incident Documentation:** Recording issue descriptions, internal notes, and simulated resolutions.
+- **Ticket Lifecycle:** Updating statuses and closing tickets.
+- **Escalation:** Reassigning incidents between support technicians.
+- **ITSM Fundamentals:** Understanding incident priority, ticket ownership, and support workflows.
 
 ---
 
 ## 📖 Key Takeaways
 
-This lab provides practical experience with the fundamental features of an IT Help Desk ticketing system.
+This lab provided hands-on experience using Spiceworks Cloud Help Desk to manage simulated IT support requests.
 
-The exercises demonstrate how technicians record and manage support requests, organise incidents, assign priorities, and maintain ticket histories.
+I practised ticket creation, prioritisation, status management, documentation, closure, and escalation between support technicians.
 
-By completing the simulated scenarios, I aim to develop familiarity with ticketing workflows commonly used in entry-level IT Support roles.
-
-The project focuses on **incident administration and ticket management**, rather than hands-on technical troubleshooting.
+The project strengthened my understanding of how IT Help Desk teams use ticketing systems to organise incidents, maintain records, and coordinate support activities.
 
 ---
 
 ## 📚 References & Acknowledgements
 
-### Original Lab
+This project follows the guided exercises from:
 
-This project follows the practical scenarios and
-learning activities provided in:
+[Pontipek — IT Ticketing System Lab](https://github.com/Pontipek/IT-Ticketing-System)
 
-**Pontipek - IT Ticketing System Lab Using Spiceworks**
+The original repository provided the foundation for the ticketing exercises. This project documents my own implementation, screenshots, and additional escalation practice.
 
-https://github.com/Pontipek/IT-Ticketing-System
-
-The original repository provided the guided
-exercises for ticket creation, categorisation,
-troubleshooting documentation, and closure.
-
-This repository documents my own implementation,
-screenshots, observations, and learning progress.
-
-### Additional Resources
-
-- [Spiceworks](https://www.spiceworks.com/)
-- [Spiceworks Account Registration](https://accounts.spiceworks.com/join/)
+Additional resource: [Spiceworks](https://www.spiceworks.com/)
 
 ---
 
-**Project Type:** Guided IT Support Home Lab
-
-**Platform:** Spiceworks Cloud Help Desk
-
-**Focus:** Tier 1 IT Support | Incident Management |
-Technical Documentation
+**Project Type:** Guided IT Support Home Lab  
+**Platform:** Spiceworks Cloud Help Desk  
+**Focus:** Ticket Management | Incident Documentation | Escalation
