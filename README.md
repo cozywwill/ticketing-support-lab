@@ -300,15 +300,11 @@ Update the ticket to its final status to demonstrate the closure process.
 
 **Ticket Status Update**
 
-![Ticket Status Update](images/ticket-status-update.png)
+<img width="1267" height="117" alt="image" src="https://github.com/user-attachments/assets/efb3af37-18ff-47b9-a7e7-e67989a626fe" />
 
-**Ticket Closure**
+**Ticket Closure & Internal Technician Notes**
 
-![Ticket Closed](images/ticket-closed.png)
-
-**Internal Technician Notes**
-
-![Internal Notes](images/documentation-internal-note.png)
+<img width="1262" height="161" alt="image" src="https://github.com/user-attachments/assets/0651c854-9ee7-4ff8-bd11-691194742511" />
 
 ---
 
