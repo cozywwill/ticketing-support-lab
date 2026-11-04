@@ -1,6 +1,5 @@
 
-# Ticketing System Lab | Spiceworks
-
+# Ticketing System Lab | Cloud Help Desk
 ## 📌 Project Overview
 
 This project demonstrates practical experience using **Spiceworks Cloud Help Desk** to manage IT support tickets in a simulated workplace environment.
