@@ -1,5 +1,5 @@
 
-# IT Help Desk Ticketing System Lab | Spiceworks
+# Ticketing System Lab | Spiceworks
 
 ## 📌 Project Overview
 
