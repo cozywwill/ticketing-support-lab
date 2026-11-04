@@ -221,7 +221,8 @@ Updated the ticket to its final status to demonstrate the closure process.
 
 The recorded resolution and closure were simulated for the purpose of practising the ticket lifecycle.
 
-### Supporting Evidence
+
+### Scenario 01 — Microsoft Teams Microphone Issue | Supporting Evidence ***
 
 **Ticket Status Update**
 
@@ -234,6 +235,20 @@ The recorded resolution and closure were simulated for the purpose of practising
 **Ticket Closure**
 
 <img width="541" height="834" alt="Closed ticket" src="https://github.com/user-attachments/assets/5262bace-1c3a-4c03-987a-833d593b4869" />
+
+### Scenario 02 — Employee Account Locked | Supporting Evidence ***
+
+**Ticket Status Update**
+
+<img width="1257" height="65" alt="image" src="https://github.com/user-attachments/assets/b26b9b26-a07d-48bd-a0ac-f0d6660f1493" />
+
+**Resolution Documentation**
+
+<img width="1290" height="130" alt="image" src="https://github.com/user-attachments/assets/71e15dde-34bf-4bef-b9f6-7c5d4274a58d" />
+
+**Ticket Closure**
+
+![Uploading image.png…]()
 
 ---
 
