@@ -89,155 +89,276 @@ The initial phase involves configuring Spiceworks Cloud Help Desk for the simula
 
 <img width="511" height="618" alt="Spiceworks registration page" src="https://github.com/user-attachments/assets/af118ba8-6767-4525-bd53-8e4d54939531" />
 
-Additional screenshots will be added as the organisation setup progresses.
+**Spiceworks Dashboard**
 
-For detailed documentation, see:
+<img width="1904" height="917" alt="image" src="https://github.com/user-attachments/assets/805cacbf-51f4-45c8-b828-2a63626495f8" />
 
-[Lab Setup & Configuration](docs/lab-setup.md)
+**Ticket Management Dashboard**
+
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/af40ca24-6653-4628-8959-60c55975c44b" />
 
 ---
 
 ## 📋 Ticketing System Fundamentals
 
-An IT ticketing system allows support technicians to record, track, manage, and resolve technical incidents and service requests.
+An IT ticketing system allows support teams to record, organise, track, and manage technical incidents and service requests.
 
-Important concepts include:
+Each support request is recorded as a ticket containing information about the reported issue.
 
-- Ticket creation and ownership.
-- Incident categorisation.
-- Impact and urgency assessment.
-- Priority assignment.
-- Troubleshooting documentation.
-- Ticket status management.
-- Escalation and resolution.
+### Common Ticket Fields
 
-### Priority Levels
+| Field | Description |
+|---|---|
+| Ticket ID | Unique identifier for the support request |
+| Requester | Employee reporting the issue |
+| Subject | Brief summary of the problem |
+| Description | Details of the reported issue |
+| Category | Classification of the incident |
+| Priority | Relative urgency and business impact |
+| Assignee | Technician responsible for the ticket |
+| Status | Current stage of the ticket |
+| Internal Notes | Documentation of ticket activity |
+
+### Ticket Priority Levels
 
 | Priority | Description | Example |
 |---|---|---|
 | P1 – Critical | Major business-wide disruption | Company-wide email outage |
 | P2 – High | Significant or urgent business impact | Critical application unavailable |
-| P3 – Medium | Limited impact on an individual or team | Single-user email issue |
+| P3 – Medium | Limited operational impact | Single-user Outlook issue |
 | P4 – Low | Minor issue or routine request | Peripheral replacement |
 
-> Priority levels are illustrative and may differ depending on organisational policies.
+> These priority levels are illustrative. Actual priority classifications depend on organisational policies and the impact and urgency of each incident.
 
-[Read Ticketing Fundamentals](docs/ticketing-fundamentals.md)
+### Ticket Lifecycle
 
----
-
-## 🔧 Planned Practical Scenarios
-
-Three simulated incidents will be documented to demonstrate common Tier 1 support workflows.
-
-### Scenario 01 — Outlook Synchronisation Issue
-
-**Category:** Software / Email
-
-**Problem:**
-
-A Marketing employee is unable to receive new emails through Microsoft Outlook, affecting communication with clients.
-
-**Planned Activities:**
-- Create and categorise the incident.
-- Assess business impact and urgency.
-- Document email troubleshooting procedures.
-- Record findings and proposed next steps.
-
-[View Scenario 01](scenarios/01-outlook-sync.md)
-
-### Scenario 02 — Office Wi-Fi Connectivity
-
-**Category:** Network
-
-**Problem:**
-
-A Sales employee cannot connect to the office wireless network and is unable to access cloud-based files.
-
-**Planned Activities:**
-- Create a network incident ticket.
-- Assess the scope of the connectivity issue.
-- Document network troubleshooting procedures.
-- Determine whether escalation is necessary.
-
-[View Scenario 02](scenarios/02-wifi-connectivity.md)
-
-### Scenario 03 — Monitor Hardware Failure
-
-**Category:** Hardware
-
-**Problem:**
-
-An HR employee reports that their monitor will not power on.
-
-**Planned Activities:**
-- Create a hardware support ticket.
-- Document diagnostic procedures.
-- Record a simulated resolution.
-- Demonstrate ticket updates and closure.
-
-[View Scenario 03](scenarios/03-monitor-failure.md)
-
----
-
-## 🔄 Ticket Lifecycle Demonstration
-
-The lab will demonstrate a typical IT incident management workflow:
+A typical ticket management workflow follows:
 
 **New → Triage → In Progress → Resolved → Closed**
 
-Depending on the incident, additional actions may include:
+During this process, technicians may:
 
-- Requesting further information.
-- Reassigning ticket ownership.
-- Escalating to another support team.
-- Reopening unresolved incidents.
+- Update ticket information.
+- Change ticket priority.
+- Assign or reassign tickets.
+- Add internal notes.
+- Request further information.
+- Escalate tickets.
+- Record a simulated resolution.
+- Close completed tickets.
 
-Actual ticket statuses and escalation options will be documented according to the Spiceworks configuration.
-
-[View Ticket Workflow](docs/ticket-workflow.md)
-
----
-
-## 🧠 Skills Being Developed
-
-- IT Help Desk ticket management.
-- Incident logging and classification.
-- Impact and urgency assessment.
-- Troubleshooting methodology.
-- Technical documentation.
-- Ticket lifecycle management.
-- Professional IT support communication.
-- Incident escalation awareness.
+Actual available statuses depend on the Spiceworks configuration.
 
 ---
 
-## 📖 Project Progress
+## 🎫 Practical Ticketing Scenarios
 
-| Phase | Activity | Status |
-|---|---|---|
-| 1 | Spiceworks account registration | Completed |
-| 2 | Northstar Technologies configuration | In Progress |
-| 3 | Help Desk interface exploration | Planned |
-| 4 | Ticketing fundamentals documentation | Planned |
-| 5 | Outlook incident scenario | Planned |
-| 6 | Wi-Fi incident scenario | Planned |
-| 7 | Monitor incident scenario | Planned |
-| 8 | Ticket lifecycle demonstration | Planned |
-| 9 | Final documentation review | Planned |
+Three fictional workplace incidents are used to demonstrate ticket creation and management within Spiceworks.
+
+The purpose of these scenarios is to practise the **ticketing workflow**, not to diagnose or repair the reported issues.
+
+### Scenario 01 — Outlook Synchronisation Issue
+
+**Requester:** Sarah M.  
+**Department:** Marketing  
+**Category:** Software / Email  
+**Suggested Priority:** P2 – High, assuming urgent business impact
+
+#### Incident Description
+
+Sarah M. reports that Microsoft Outlook is not synchronising emails, resulting in missed client correspondence.
+
+#### Ticketing Activities
+
+1. Create a new support ticket.
+2. Enter the requester's information.
+3. Record the incident description.
+4. Categorise the ticket as a software issue.
+5. Assign a priority based on the simulated impact.
+6. Save the ticket and review its details.
+
+#### Ticket Evidence
+
+![Outlook Ticket](images/scenario1.png)
 
 ---
 
-## 📚 Resources
+### Scenario 02 — Wi-Fi Connectivity Issue
 
-- [Spiceworks Official Website](https://www.spiceworks.com/)
+**Requester:** John R.  
+**Department:** Sales  
+**Category:** Network  
+**Suggested Priority:** P2 – High, assuming time-sensitive business impact
+
+#### Incident Description
+
+John R. reports that he cannot connect to the office Wi-Fi network, preventing access to cloud-based files before an important meeting.
+
+#### Ticketing Activities
+
+1. Create a new support ticket.
+2. Enter the requester's information.
+3. Document the reported connectivity issue.
+4. Categorise the ticket as a network issue.
+5. Assign a priority based on the simulated urgency.
+6. Save and review the ticket.
+
+#### Ticket Evidence
+
+![Wi-Fi Ticket](images/scenario2.png)
+
+---
+
+### Scenario 03 — Monitor Hardware Failure
+
+**Requester:** Emily T.  
+**Department:** Human Resources  
+**Category:** Hardware  
+**Suggested Priority:** P3 – Medium
+
+#### Incident Description
+
+Emily T. reports that her monitor will not power on, preventing normal use of her workstation.
+
+#### Ticketing Activities
+
+1. Create a new support ticket.
+2. Enter the requester's information.
+3. Document the reported hardware issue.
+4. Categorise the ticket as a hardware issue.
+5. Assign an appropriate priority.
+6. Use the ticket to demonstrate status updates, internal notes, and simulated closure.
+
+#### Ticket Evidence
+
+![Monitor Ticket](images/scenario3.png)
+
+---
+
+## 🔄 Ticket Status and Closure Demonstration
+
+Scenario 03 is used to demonstrate how a support ticket progresses through different stages within the ticketing system.
+
+This exercise does not involve physically troubleshooting or replacing a monitor.
+
+### Step 1 — Ticket Creation
+
+Create a support ticket documenting the employee's reported monitor issue.
+
+### Step 2 — Status Update
+
+Update the ticket to indicate that the incident is being handled.
+
+This demonstrates how technicians track ticket progress.
+
+### Step 3 — Internal Notes
+
+Add a simulated technician note to document the ticket's progress.
+
+**Example Internal Note:**
+
+> Simulated support scenario: Monitor reported as not powering on. Hardware assessment and replacement recorded as hypothetical actions for ticket workflow demonstration.
+
+### Step 4 — Simulated Resolution
+
+Record a fictional resolution indicating that the monitor was replaced.
+
+This demonstrates how resolution information is entered into the ticketing system.
+
+No physical hardware replacement is performed.
+
+### Step 5 — Ticket Closure
+
+Update the ticket to its final status to demonstrate the closure process.
+
+### Supporting Evidence
+
+**Ticket Status Update**
+
+![Ticket Status Update](images/ticket-status-update.png)
+
+**Ticket Closure**
+
+![Ticket Closed](images/ticket-closed.png)
+
+**Internal Technician Notes**
+
+![Internal Notes](images/documentation-internal-note.png)
+
+---
+
+## 🧠 Skills Demonstrated
+
+### IT Ticket Management
+
+- Creating and managing support tickets.
+- Recording incident details.
+- Categorising support requests.
+- Assigning ticket priorities.
+
+### Ticket Lifecycle Management
+
+- Understanding ticket statuses.
+- Updating ticket progress.
+- Recording simulated resolutions.
+- Closing tickets.
+
+### Technical Documentation
+
+- Writing clear incident descriptions.
+- Recording ticket activity.
+- Maintaining internal notes.
+- Organising support documentation.
+
+### IT Service Management Fundamentals
+
+- Understanding incident management workflows.
+- Recognising the importance of prioritisation.
+- Understanding ticket ownership and accountability.
+- Learning how ticketing platforms support IT teams.
+
+---
+
+## 📖 Key Takeaways
+
+This lab provides practical experience with the fundamental features of an IT Help Desk ticketing system.
+
+The exercises demonstrate how technicians record and manage support requests, organise incidents, assign priorities, and maintain ticket histories.
+
+By completing the simulated scenarios, I aim to develop familiarity with ticketing workflows commonly used in entry-level IT Support roles.
+
+The project focuses on **incident administration and ticket management**, rather than hands-on technical troubleshooting.
+
+---
+
+## 📚 References & Acknowledgements
+
+### Original Lab
+
+This project follows the practical scenarios and
+learning activities provided in:
+
+**Pontipek - IT Ticketing System Lab Using Spiceworks**
+
+https://github.com/Pontipek/IT-Ticketing-System
+
+The original repository provided the guided
+exercises for ticket creation, categorisation,
+troubleshooting documentation, and closure.
+
+This repository documents my own implementation,
+screenshots, observations, and learning progress.
+
+### Additional Resources
+
+- [Spiceworks](https://www.spiceworks.com/)
 - [Spiceworks Account Registration](https://accounts.spiceworks.com/join/)
-- [Spiceworks Help Desk Tutorial](https://www.youtube.com/watch?v=g1AZ-EtD6Nw)
 
 ---
 
-**Project Type:** Personal IT Support Home Lab  
-**Platform:** Spiceworks Cloud Help Desk  
-**Focus:** Tier 1 IT Support | Ticket Management | Incident Documentation
+**Project Type:** Guided IT Support Home Lab
 
-*This project uses fictional employees and simulated workplace scenarios for educational purposes.*
+**Platform:** Spiceworks Cloud Help Desk
+
+**Focus:** Tier 1 IT Support | Incident Management |
+Technical Documentation
