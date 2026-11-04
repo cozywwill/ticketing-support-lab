@@ -243,7 +243,7 @@ The recorded resolution and closure were simulated for the purpose of practising
 
 **Resolution Documentation**
 
-<img width="1241" height="157" alt="image" src="https://github.com/user-attachments/assets/45242193-a7a3-40ed-8c19-bb39feed2b4a" />
+<img width="977" height="120" alt="image" src="https://github.com/user-attachments/assets/53d25b26-3ebc-4760-b59c-96e548449600" />
 
 **Ticket Closure**
 
