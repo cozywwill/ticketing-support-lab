@@ -56,17 +56,15 @@ The organisation will contain multiple departments with employees submitting tec
 | Environment | Simulated Small Business |
 | IT Role | Tier 1 Help Desk Technician |
 | Ticketing Platform | Spiceworks Cloud Help Desk |
-| Organisation Setup | In Progress |
 
 ### Planned Departments
 
 | Department | Employee | Support Scenario |
 |---|---|---|
 | IT | Help Desk Technician | Ticket management |
-| Marketing | Sarah M. | Outlook synchronisation |
-| Sales | John R. | Wi-Fi connectivity |
-| Human Resources | Emily T. | Monitor hardware failure |
-| Finance | To be created | Future scenarios |
+| Sales | Michael T. | Wi-Fi connectivity |
+| Finance | Daniel K. | Locked out employee account |
+| Administration Department | Emily T. | Monitor hardware failure |
 
 All employee identities are fictional.
 
@@ -153,87 +151,115 @@ Actual available statuses depend on the Spiceworks configuration.
 
 ---
 
+
 ## 🎫 Practical Ticketing Scenarios
 
-Three fictional workplace incidents are used to demonstrate ticket creation and management within Spiceworks.
+Three fictional workplace incidents were created to demonstrate ticket creation, categorisation, prioritisation, and management within Spiceworks Cloud Help Desk.
 
-The purpose of these scenarios is to practise the **ticketing workflow**, not to diagnose or repair the reported issues.
+The scenarios take place within **Northstar Technologies**, a simulated small business environment.
 
-### Scenario 01 — Outlook Synchronisation Issue
+The purpose of these scenarios is to practise the **ticketing workflow**, rather than diagnose or resolve the reported technical issues.
 
-**Requester:** Sarah M.  
-**Department:** Marketing  
-**Category:** Software / Email  
-**Suggested Priority:** P2 – High, assuming urgent business impact
+### Scenario 01 — Microsoft Teams Microphone Issue
 
-#### Incident Description
-
-Sarah M. reports that Microsoft Outlook is not synchronising emails, resulting in missed client correspondence.
-
-#### Ticketing Activities
-
-1. Create a new support ticket.
-2. Enter the requester's information.
-3. Record the incident description.
-4. Categorise the ticket as a software issue.
-5. Assign a priority based on the simulated impact.
-6. Save the ticket and review its details.
-
-#### Ticket Evidence
-
-![Outlook Ticket](images/scenario1.png)
-
----
-
-### Scenario 02 — Wi-Fi Connectivity Issue
-
-**Requester:** John R.  
+**Requester:** Michael Taylor  
 **Department:** Sales  
-**Category:** Network  
-**Suggested Priority:** P2 – High, assuming time-sensitive business impact
+**Category:** Software  
+**Priority:** High  
 
 #### Incident Description
 
-John R. reports that he cannot connect to the office Wi-Fi network, preventing access to cloud-based files before an important meeting.
+Michael Taylor from the Sales Department reports that his microphone is not working during Microsoft Teams meetings. Although he can hear other participants, they cannot hear him.
+
+He has attempted to leave and rejoin the meeting and restart Microsoft Teams, but the issue persists. The problem is affecting an upcoming client presentation and requires urgent IT assistance.
 
 #### Ticketing Activities
 
-1. Create a new support ticket.
-2. Enter the requester's information.
-3. Document the reported connectivity issue.
-4. Categorise the ticket as a network issue.
-5. Assign a priority based on the simulated urgency.
-6. Save and review the ticket.
+1. Create a new support ticket in Spiceworks.
+2. Select Michael Taylor as the contact.
+3. Enter the ticket summary and incident description.
+4. Categorise the ticket as a software issue.
+5. Assign **High** priority due to the time-sensitive business impact.
+6. Assign the ticket to the IT Help Desk technician.
+7. Save the ticket and review its recorded information.
 
 #### Ticket Evidence
 
-![Wi-Fi Ticket](images/scenario2.png)
+![Microsoft Teams Ticket](<img width="1842" height="861" alt="image" src="https://github.com/user-attachments/assets/32c06f01-1f82-4ece-b243-ec1844dbdcd1" />
+)
 
 ---
 
-### Scenario 03 — Monitor Hardware Failure
+### Scenario 02 — Employee Account Locked
 
-**Requester:** Emily T.  
-**Department:** Human Resources  
-**Category:** Hardware  
-**Suggested Priority:** P3 – Medium
+**Requester:** Jessica Lee  
+**Department:** Finance  
+**Category:** Account / Access  
+**Priority:** Medium  
 
 #### Incident Description
 
-Emily T. reports that her monitor will not power on, preventing normal use of her workstation.
+Jessica Lee from the Finance Department reports that her work account has been locked following multiple unsuccessful login attempts.
+
+The account lockout prevents her from accessing company applications and shared files required for her daily responsibilities. She has attempted to sign in again but continues to receive the account locked message.
 
 #### Ticketing Activities
 
-1. Create a new support ticket.
-2. Enter the requester's information.
-3. Document the reported hardware issue.
-4. Categorise the ticket as a hardware issue.
-5. Assign an appropriate priority.
-6. Use the ticket to demonstrate status updates, internal notes, and simulated closure.
+1. Create a new support ticket in Spiceworks.
+2. Select Jessica Lee as the contact.
+3. Record the reported account access issue.
+4. Categorise the ticket as an account or access-related issue.
+5. Assign **Medium** priority based on the simulated business impact.
+6. Assign the ticket to the IT Help Desk technician.
+7. Save the ticket and verify the recorded details.
 
 #### Ticket Evidence
 
-![Monitor Ticket](images/scenario3.png)
+![Account Lockout Ticket](<img width="1843" height="856" alt="image" src="https://github.com/user-attachments/assets/ad3b3569-01c4-4bd0-993a-32bff72b5ed6" />
+)
+
+---
+
+### Scenario 03 — Office Printer Not Printing
+
+**Requester:** Daniel Kim  
+**Department:** Administration  
+**Category:** Hardware  
+**Priority:** Low  
+
+#### Incident Description
+
+Daniel Kim from the Administration Department reports that the shared office printer is not printing documents submitted from his workstation.
+
+Print jobs remain in the queue without completing. He has attempted to cancel and resubmit the print jobs, but the issue persists.
+
+An alternative printer is available, allowing him to continue working with minimal disruption.
+
+#### Ticketing Activities
+
+1. Create a new support ticket in Spiceworks.
+2. Select Daniel Kim as the contact.
+3. Record the printer issue in the ticket description.
+4. Categorise the ticket as a hardware issue.
+5. Assign **Low** priority due to the availability of an alternative printer.
+6. Assign the ticket to the IT Help Desk technician.
+7. Save the ticket and review its details.
+8. Use the ticket to demonstrate status updates, internal notes, and simulated closure.
+
+#### Ticket Evidence
+
+![Printer Support Ticket](<img width="1837" height="856" alt="image" src="https://github.com/user-attachments/assets/89efc0d7-dc51-46e9-9257-9cc1ad512ea3" />
+)
+
+---
+
+### Scenario Summary
+
+| Scenario | Requester | Category | Priority |
+|---|---|---|---|
+| 01 — Microsoft Teams Microphone | Michael Taylor | Software | High |
+| 02 — Employee Account Locked | Jessica Lee | Account / Access | Medium |
+| 03 — Office Printer Issue | Daniel Kim | Hardware | Low |
 
 ---
 
