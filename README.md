@@ -302,9 +302,13 @@ Update the ticket to its final status to demonstrate the closure process.
 
 <img width="1267" height="117" alt="image" src="https://github.com/user-attachments/assets/efb3af37-18ff-47b9-a7e7-e67989a626fe" />
 
-**Ticket Closure & Internal Technician Notes**
+**Internal Technician Notes**
 
 <img width="1262" height="161" alt="image" src="https://github.com/user-attachments/assets/0651c854-9ee7-4ff8-bd11-691194742511" />
+
+**Ticket Closure**
+
+<img width="543" height="834" alt="image" src="https://github.com/user-attachments/assets/44e6a1f3-0a0d-4f99-8678-0280a0623d2e" />
 
 ---
 
