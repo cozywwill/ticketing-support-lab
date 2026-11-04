@@ -262,9 +262,9 @@ An alternative printer is available, allowing him to continue working with minim
 
 ## 🔄 Ticket Status and Closure Demonstration
 
-Scenario 03 is used to demonstrate how a support ticket progresses through different stages within the ticketing system.
+Scenario 01 is used to demonstrate how a support ticket progresses through different stages within the ticketing system.
 
-This exercise does not involve physically troubleshooting or replacing a monitor.
+This exercise does not involve troubleshooting.
 
 ### Step 1 — Ticket Creation
 
@@ -290,8 +290,6 @@ Record a fictional resolution indicating that the monitor was replaced.
 
 This demonstrates how resolution information is entered into the ticketing system.
 
-No physical hardware replacement is performed.
-
 ### Step 5 — Ticket Closure
 
 Update the ticket to its final status to demonstrate the closure process.
@@ -308,9 +306,87 @@ Update the ticket to its final status to demonstrate the closure process.
 
 **Ticket Closure**
 
-<img width="543" height="834" alt="image" src="https://github.com/user-attachments/assets/44e6a1f3-0a0d-4f99-8678-0280a0623d2e" />
+<img width="541" height="834" alt="image" src="https://github.com/user-attachments/assets/5262bace-1c3a-4c03-987a-833d593b4869" />
 
 ---
+
+## ⬆️ Ticket Escalation Demonstration
+
+This exercise demonstrates how an IT support ticket can be escalated from **Tier 1 IT Support to Tier 2 IT Support** within Spiceworks Cloud Help Desk.
+
+Scenario 03 — **Office Printer Not Printing**, reported by Daniel Kim from the Administration Department, is used to demonstrate the escalation process.
+
+The purpose of this exercise is to practise ticket reassignment, internal documentation, and communication between support levels rather than performing actual technical troubleshooting.
+
+### Step 1 — Identify the Need for Escalation
+
+In a real IT support environment, incidents may require escalation when:
+
+- The issue exceeds the technical expertise of Tier 1 Support.
+- Additional system permissions or administrative access are required.
+- The issue cannot be resolved through standard troubleshooting procedures.
+- Further investigation by a specialised technician is necessary.
+
+For this scenario, the printer issue is assumed to require further investigation by Tier 2 IT Support.
+
+### Step 2 — Document the Escalation
+
+An internal note is added to explain the reason for escalation and provide relevant incident information.
+
+**Example Internal Escalation Note:**
+
+> Simulated escalation: The reported printer issue requires further technical investigation. Print jobs remain in the queue without completing. The ticket is being referred to Tier 2 IT Support for additional assessment. Priority remains Low because an alternative printer is available. No actual troubleshooting has been performed.
+
+This demonstrates how technicians document escalation decisions to ensure continuity between support teams.
+
+### Step 3 — Reassign the Ticket
+
+The ticket is reassigned from the Tier 1 IT Support technician to a Tier 2 technician, if another technician account is available.
+
+**Escalation Details:**
+
+| Field | Information |
+|---|---|
+| Requester | Daniel Kim |
+| Incident | Office Printer Not Printing |
+| Escalation Type | Functional Escalation |
+| Escalated From | Tier 1 IT Support |
+| Escalated To | Tier 2 IT Support |
+| Reason | Further technical investigation required |
+| Priority | Low |
+| Status | In Progress |
+
+The reassignment demonstrates how ticket ownership can be transferred between technicians while retaining the incident history.
+
+> If another technician account is unavailable, the escalation can be documented through an internal note without performing an actual reassignment.
+
+### Step 4 — Verify Ticket Reassignment
+
+After the simulated escalation, review the ticket to verify that:
+
+1. The assigned technician has been updated, if supported.
+2. The ticket's category and priority remain unchanged.
+3. The internal escalation note is recorded.
+4. The ticket history remains accessible.
+5. The incident remains open for further investigation.
+
+This demonstrates how IT support teams maintain accurate records when transferring tickets between support levels.
+
+### Supporting Evidence
+
+**Escalation Internal Note**
+
+<img width="1295" height="607" alt="image" src="https://github.com/user-attachments/assets/115ce838-6839-48f1-8e07-609def6de483" />
+
+
+**Ticket Reassignment**
+
+<img width="1292" height="152" alt="image" src="https://github.com/user-attachments/assets/a4d94952-c486-4d54-83bc-a6d7cb06c0e2" />
+
+<img width="536" height="828" alt="image" src="https://github.com/user-attachments/assets/69314703-b3b6-4730-9822-07514115a358" />
+
+---
+
 
 ## 🧠 Skills Demonstrated
 
