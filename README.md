@@ -7,11 +7,13 @@ This project is a personal IT support home lab designed to simulate Tier 1 Help 
 
 The lab involves setting up a fictional organisation, **Northstar Technologies**, and using realistic workplace scenarios to practise ticket creation, incident categorisation, prioritisation, troubleshooting documentation, and ticket lifecycle management.
 
-The project is being developed progressively, with each stage documented through screenshots, technical notes, and simulated support incidents.
+Three workplace scenarios are used to demonstrate ticket management:
 
-> **Project Status:** In Progress — Organisation setup and lab configuration.
->
-> **Lab Scope:** All employees and incidents are fictional. Troubleshooting activities will be identified as either simulated or performed in a test environment.
+1. Microsoft Outlook synchronisation issue.
+2. Office Wi-Fi connectivity issue.
+3. Monitor hardware failure.
+
+> **Lab Scope:** This project focuses exclusively on ticketing system operations. No actual hardware, software, or network troubleshooting is performed. All incidents, ticket updates, and resolutions are simulated for educational purposes.
 
 ---
 
