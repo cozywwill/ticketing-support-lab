@@ -222,7 +222,7 @@ Updated the ticket to its final status to demonstrate the closure process.
 The recorded resolution and closure were simulated for the purpose of practising the ticket lifecycle.
 
 
-### Scenario 01 — Microsoft Teams Microphone Issue | Supporting Evidence ***
+### Scenario 01 — Microsoft Teams Microphone Issue | Supporting Evidence 
 
 **Ticket Status Update**
 
@@ -236,19 +236,19 @@ The recorded resolution and closure were simulated for the purpose of practising
 
 <img width="541" height="834" alt="Closed ticket" src="https://github.com/user-attachments/assets/5262bace-1c3a-4c03-987a-833d593b4869" />
 
-### Scenario 02 — Employee Account Locked | Supporting Evidence ***
+### Scenario 02 — Employee Account Locked | Supporting Evidence 
 
 **Ticket Status Update**
 
-<img width="1257" height="65" alt="image" src="https://github.com/user-attachments/assets/b26b9b26-a07d-48bd-a0ac-f0d6660f1493" />
+<img width="1260" height="67" alt="image" src="https://github.com/user-attachments/assets/cb36bdf0-156a-4b11-b5e4-2f4468ca878c" />
 
 **Resolution Documentation**
 
-<img width="1290" height="130" alt="image" src="https://github.com/user-attachments/assets/71e15dde-34bf-4bef-b9f6-7c5d4274a58d" />
+<img width="1241" height="157" alt="image" src="https://github.com/user-attachments/assets/45242193-a7a3-40ed-8c19-bb39feed2b4a" />
 
 **Ticket Closure**
 
-![Uploading image.png…]()
+<img width="541" height="833" alt="image" src="https://github.com/user-attachments/assets/310732ea-79d7-4a7c-99e8-953a514f14d3" />
 
 ---
 
